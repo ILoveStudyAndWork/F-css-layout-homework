@@ -124,6 +124,7 @@ a:link {
   border-style: none;
   outline: none;
   border-radius: 5px;
+  font-size: larger;
 }
 
 
@@ -136,6 +137,10 @@ input {
 .input-text{
   border: 1px lightgray solid;
   margin: 10px;
+}
+
+.remember-me {
+  font-weight: 600;
 }
 
 footer {
