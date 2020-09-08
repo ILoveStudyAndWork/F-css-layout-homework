@@ -35,14 +35,10 @@ ul {
 }
 
 main {
-  padding:60px 80px;
+  padding:60px 80px 30px 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-}
-
-aside {
-
 }
 
 .content {
@@ -96,6 +92,7 @@ figure >img{
   height: 120px;
   width: 100%;
 }
+
 section {
   padding: 0 20px;
 }
