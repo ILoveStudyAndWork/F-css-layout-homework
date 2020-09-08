@@ -34,27 +34,68 @@ main {
   padding:30px 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 aside {
-  flex-grow: 1;
+
 }
 
-article {
-  flex-grow: 4;
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 68%;
 }
 
-.left-aside {
+.left-aside,.right-aside {
   display: flex;
   flex-direction: column;
+  flex-basis: 16%;
 }
 
 .about,.archives {
-  margin: 20px 40px 20px 0px;
+  margin: 20px 40px 20px 0;
   padding-right: 20px;
   padding-top: 20px;
 }
 
 .about,.archives >h1{
   font-style: italic;
+}
+
+article >p {
+  word-wrap:break-spaces ;
+}
+
+.left-sub-content  {
+  flex-basis: 49%;
+}
+
+.right-sub-content {
+  flex-basis: 49%;
+}
+
+article {
+  padding-bottom: 30px;
+}
+
+.view-link{
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure >img{
+  height: 120px;
+  width: 100%;
+}
+section {
+  padding: 0 20px;
+}
+
+a:link {
+  color: #1a73e8;
 }
