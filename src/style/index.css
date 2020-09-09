@@ -2,7 +2,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +34,7 @@ ul {
 }
 
 main {
-  padding:60px 80px 30px 80px;
+  padding:60px 40px 30px 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -53,14 +52,26 @@ main {
   flex-basis: 16%;
 }
 
-.about,.archives {
-  margin: 20px 40px 20px 0;
-  padding-right: 20px;
-  padding-top: 20px;
+.about{
+  margin: 20px 40px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.archives {
+  margin: 20px 40px;
+  padding: 20px;
 }
 
 .about,.archives >h1{
   font-style: italic;
+}
+
+article {
+  box-shadow:    0px -1px 0px 0px darkgray,
+  -1px 0px 0px 0px darkgray,
+  0px 0px 1px 0px darkgray,
+  0px 0px 0px 1px darkgray;
+  margin-bottom: 20px;
 }
 
 article >p {
@@ -102,7 +113,9 @@ a:link {
 }
 
 .sign-in {
+  padding: 20px;
   text-align: center;
+  background-color: #f8f9fa;
 }
 
 .right-aside {
@@ -114,7 +127,6 @@ a:link {
 
 .btn-sign-in {
   background-color: #007bff;
-  margin: 10px;
   width: 100%;
   height: 50px;
   color: white;
@@ -122,22 +134,33 @@ a:link {
   outline: none;
   border-radius: 5px;
   font-size: larger;
+  margin-top: 10px;
 }
 
 
 input {
-  border-style: none;
-  outline: none;
-  margin: 10px ;
+  border: 1px solid darkgray;
+  padding: 10px ;
+  box-sizing: content-box;
+}
+
+.email-input {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.psw-input {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .input-text{
   border: 1px lightgray solid;
-  margin: 10px;
 }
 
 .remember-me {
   font-weight: 600;
+  margin: 10px;
 }
 
 footer {
