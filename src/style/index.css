@@ -137,26 +137,25 @@ a:link {
   margin-top: 10px;
 }
 
-
-input {
+.email-input {
   border: 1px solid darkgray;
   padding: 10px ;
+  outline: none;
   box-sizing: content-box;
-}
-
-.email-input {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 .psw-input {
+  border: 1px solid darkgray;
+  border-top: none;
+  outline: none;
+  padding: 10px ;
+  box-sizing: content-box;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.input-text{
-  border: 1px lightgray solid;
-}
 
 .remember-me {
   font-weight: 600;
